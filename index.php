@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prctica 2 DEWS</title>
 </head>
 
 <body>
@@ -23,6 +23,7 @@
     $coche1 = new Coche("Verde", "seat", "panda", 250, 200, 5);
     $coche2 = new Coche("Azul", "Citroen", "Xara", 100, 220, 4);
     $coche3 = new Coche("Rojo", "Mercedes", "Clase A", 350, 100, 3);
+    
 
     // $coche -> color = "Rosa";
     // $coche -> setMarca("Audi");
@@ -42,6 +43,8 @@
     echo "<br>";
     echo "<br>";
     echo $coche3->mostrarInfo();
+
+    
 
 
 

@@ -103,7 +103,7 @@ class Persona
 
     function hablar()
     {
-        echo ("Marikon quien lo lea, estoy hablando");
+        echo ("Hello whats up!! , estoy hablando !!");
     }
 
     function caminar()
