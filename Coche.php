@@ -161,7 +161,22 @@ class Coche
 
     function mostrarInfo()
     {
-        echo("El coche es de color " . $this->color . ", su marca es " . $this->marca . ", y el modelo es " . $this->modelo . ", va a " . $this->velocidad . " km/h, y a un ritmo de " . $this->caballaje . ", y por ultimo, tiene " . $this->plazas . " plazas");
+        if(is_object($this) == true || empty($this) == false){
+
+            echo("El coche es de color " . $this->color . 
+            ", su marca es " . $this->marca . 
+            ", y el modelo es " . $this->modelo . 
+            ", va a " . $this->velocidad . 
+            " km/h, y a un ritmo de " . $this->caballaje . 
+            ", y por ultimo, tiene " . $this->plazas . " plazas");
+
+        }else{
+
+            echo("no es un objeto orr está vacio... mete datos");
+
+        }
+
+        
         
     }
 
